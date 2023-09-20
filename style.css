@@ -1,0 +1,104 @@
+body {
+	 background-color: #afb4d6;
+  font-family:Quicksand;
+	 margin: 1rem auto;
+	 max-width: 80rem;
+}
+h1 {
+  text-align: center;
+	 margin-bottom: 1rem;
+   font-size: 8rem;
+   font-family: Quicksand;
+   font-weight: 100;
+  color: purple;
+}
+/*Custom Cursor Images https://codepen.io/fmressel/pen/djwvJV Links to an external site.  Search for Unicode using https://emojipedia.org/ Links to an external site.  and replace characters before .png*/
+
+/*Rainbow*/
+.sparkle {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/2728.png) 36 36, auto;
+}
+/*Custom Cursor Images https://codepen.io/fmressel/pen/djwvJV Links to an external site.  Search for Unicode using https://emojipedia.org/ Links to an external site.  and replace characters before .png*/
+
+/*Rainbow*/
+.soccer {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/26bd.png) 36 36, auto;
+}
+/*Custom Cursor Images https://codepen.io/fmressel/pen/djwvJV Links to an external site.  Search for Unicode using https://emojipedia.org/ Links to an external site.  and replace characters before .png*/
+
+/*Rainbow*/
+.trophy {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f3c6.png) 36 36, auto;
+}
+
+section{
+  display: flex;
+}
+.tooltiptext{
+  visibility: hidden;
+  width: 80px
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 396px;
+  left: 13%;
+  color: purple;
+}
+
+.award:hover .tooltiptext{
+  visibility: visible;
+ }
+
+figure{
+  position: sticky;
+}
+
+section{
+ display: flex;
+}
+.text{
+  visibility: hidden;
+   width: 80px
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 396px;
+  left: 20%;
+  color: purple;
+}
+.trophy:hover .text{
+  visibility: visible;
+}
+section{
+  display: flex;
+}
+.caption{
+  visibility: hidden;
+   width: 80px
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 396px;
+  left: 13%;  
+  color: purple;
+}
+.UEFA:hover .caption{
+  visibility: visible;
+}
+
+figure{
+  align-self: flex-start;
+  display: flex;
+  top: 3rem;
+  position: sticky;
+}
+body{
+  max-width: 65rem;
+  margin: 1rem auto;
+}
